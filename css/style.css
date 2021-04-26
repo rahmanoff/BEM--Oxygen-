@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    font: 'Open Sans';
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.header__top{
+    padding: 5px 0 5px;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header__content-inner{
+    min-height: 658px;
+    background-image:url('img/Header-bg.png');
+}
