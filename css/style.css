@@ -69,3 +69,24 @@ a {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.header__title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 122px;
+    color: #fff;
+    padding-top: 213px;
+}
+
+.header__description {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.74px;
+    color: #FCBB08;
+    padding-top: 20px;
+}
