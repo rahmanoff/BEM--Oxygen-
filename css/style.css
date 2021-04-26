@@ -52,4 +52,12 @@ a {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: .6px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 9px;
+    transition: all 0.5s;
+}
+
+.menu__list-item:hover {
+    content: '';
+    border-bottom: 2px solid #FCBB08;
 }
