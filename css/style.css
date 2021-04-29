@@ -90,3 +90,8 @@ a {
     color: #FCBB08;
     padding-top: 20px;
 }
+
+.header__content-decor {
+    text-align: center;
+    margin-top: 180px;
+}
