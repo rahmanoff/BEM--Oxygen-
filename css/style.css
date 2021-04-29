@@ -95,3 +95,44 @@ a {
     text-align: center;
     margin-top: 180px;
 }
+
+.about {
+    background-color: #F6F8FA;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: start;
+    padding-top: 143px;
+}
+
+.title {
+    min-width: 267px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 75px;
+    letter-spacing: -1.65px;
+    color: #242121;
+    position: relative;
+    margin-right: 133px;
+}
+
+.title::before {
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #FCBB08;
+    left: 0;
+    top: 89px;
+}
+
+.about__text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373a39;
+    margin-bottom: 125px;
+}
