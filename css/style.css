@@ -264,6 +264,7 @@ a {
     margin-left: 15px;
     color: #333;
     border-bottom: 2px solid transparent;
+    cursor: pointer;
 }
 
 .portfolio__btn:hover {
@@ -272,5 +273,65 @@ a {
 }
 
 .portfolio__items-inner {
-    margin-bottom: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+}
+
+.portfolio__btn-all {
+    width: 100%;
+    height: 100px;
+    background-color: #F6F8FA;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+    color: #242121;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.video {
+    position: relative;
+}
+
+.video__quotes {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 36px;
+    color: #242121;
+    margin-bottom: 51px;
+}
+
+.video__quotes-autor {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 32px;
+    color: #9E9E9E;
+    margin-bottom: 51px;
+}
+
+.video__content {
+    width: 100%;
+    height: 324px;
+    background-image: url(../img/video-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.video__img {
+    position: absolute;
+    left: 50%;
+    top: 60%;
 }
