@@ -138,6 +138,12 @@ a {
 }
 
 .expertise .title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -1.65px;
+    color: #242121;
     padding-top: 143px;
     margin-bottom: 89px;
 }
@@ -219,6 +225,16 @@ a {
 
 .features__title {
     margin-bottom: 85px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -1.65px;
+    color: #242121;
+}
+
+.features__title::before {
+    top: 165px;
 }
 
 .features__text {
@@ -227,4 +243,12 @@ a {
     font-size: 14px;
     line-height: 24px;
     color: #373A39;
+}
+
+.portfolio__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 139px;
+    margin-bottom: 115px;
 }
