@@ -78,6 +78,7 @@ a {
     line-height: 122px;
     color: #fff;
     padding-top: 213px;
+    margin-bottom: 19px;
 }
 
 .header__description {
@@ -88,12 +89,11 @@ a {
     line-height: 20px;
     letter-spacing: 2.74px;
     color: #FCBB08;
-    padding-top: 20px;
+    margin-bottom: 180px;
 }
 
 .header__content-decor {
     text-align: center;
-    margin-top: 180px;
 }
 
 .about {
@@ -269,4 +269,8 @@ a {
 .portfolio__btn:hover {
     content: '';
     border-bottom: 2px solid #FCBB08;
+}
+
+.portfolio__items-inner {
+    margin-bottom: 72px;
 }
