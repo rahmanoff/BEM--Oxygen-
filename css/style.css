@@ -252,3 +252,21 @@ a {
     padding-top: 139px;
     margin-bottom: 115px;
 }
+
+.portfolio__btn {
+    background-color: transparent;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    color: #333;
+    border-bottom: 2px solid transparent;
+}
+
+.portfolio__btn:hover {
+    content: '';
+    border-bottom: 2px solid #FCBB08;
+}
