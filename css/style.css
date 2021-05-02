@@ -202,3 +202,32 @@ a {
     line-height: 24px;
     color: #777777;
 }
+
+.features {
+    background-color: #F6F8FA;
+    display: flex;
+    align-items: flex-start;
+}
+
+.features__img {
+    left: 0;
+}
+
+.features__inner {
+    padding: 101px 135px 180px 135px;
+}
+
+.features__title {
+    margin-bottom: 85px;
+}
+
+.features__text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A39;
+}
+
+
+}
