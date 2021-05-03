@@ -272,6 +272,15 @@ a {
     border-bottom: 2px solid #FCBB08;
 }
 
+.portfolio__temp-img {
+    width: 100%;
+    margin-bottom: 72px;
+}
+
+.temp__img {
+    margin: 0 auto;
+}
+
 .portfolio__items-inner {
     display: flex;
     flex-wrap: wrap;
@@ -334,4 +343,29 @@ a {
     position: absolute;
     left: 50%;
     top: 60%;
+}
+
+.statistics__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 431px;
+}
+
+.statistics__item-num {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #242121;
+    text-align: center;
+}
+
+.statistics__item-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #00B2A0;
+    text-align: center;
 }
