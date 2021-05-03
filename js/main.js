@@ -1,5 +1,8 @@
 $(document).ready(function() {
     $('.slider').slick({
-        setting - name: setting - value
+        autoplay: true,
+        fade: true,
+        dots: true,
+        arrows: true
     });
 });
