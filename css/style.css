@@ -4,9 +4,9 @@
             box-sizing: border-box;
         }
         /* font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif; */
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif; */
         
         body {
             font-family: 'Open Sans', sans-serif;
@@ -435,4 +435,56 @@
             color: #777777;
             text-align: center;
             margin-bottom: 164px;
+        }
+        
+        .pricing {
+            background-color: #F6F8FA;
+        }
+        
+        .pricing__title {
+            padding-top: 144px;
+        }
+        
+        .pricing__title::before {
+            top: 220px;
+        }
+        
+        .pricing__items {
+            padding-top: 80px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .pricing__item {
+            background-color: #fff;
+            min-width: 370px;
+        }
+        
+        .pricing__item-name {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: #242121;
+            text-align: left;
+            margin-top: 24px;
+            margin-left: 25px;
+            margin-bottom: 8px;
+        }
+        
+        .pricing__item-rate {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            font-size: 80px;
+            line-height: 109px;
+            color: #242121;
+            text-align: center;
+        }
+        
+        .pricing__item-rate span {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 27px;
+            color: #242121;
         }
