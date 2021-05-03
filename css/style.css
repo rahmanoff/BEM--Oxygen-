@@ -458,6 +458,7 @@
         .pricing__item {
             background-color: #fff;
             min-width: 370px;
+            position: relative;
         }
         
         .pricing__item-name {
@@ -487,4 +488,16 @@
             font-size: 20px;
             line-height: 27px;
             color: #242121;
+        }
+        
+        .pricing__item-rate::before {
+            position: absolute;
+            content: '$';
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 54px;
+            color: #242121;
+            left: 86px;
+            top: 69px;
         }
