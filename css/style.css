@@ -453,6 +453,7 @@
             padding-top: 80px;
             display: flex;
             justify-content: space-evenly;
+            padding-bottom: 150px;
         }
         
         .pricing__item {
@@ -509,6 +510,7 @@
         .pricing__list {
             list-style: none;
             text-align: center;
+            margin-bottom: 69px;
         }
         
         .pricing__list-item {
@@ -518,4 +520,19 @@
             line-height: 22px;
             color: #242121;
             margin-bottom: 30px;
+        }
+        
+        .pricing__btn {
+            width: 100%;
+            border: none;
+            background-color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 1.2px;
+            color: #242121;
+            cursor: pointer;
+            text-align: center;
+            margin-bottom: 53px;
         }
