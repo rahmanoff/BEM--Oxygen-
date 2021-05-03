@@ -279,6 +279,7 @@ a {
 
 .temp__img {
     margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 .portfolio__items-inner {
