@@ -699,4 +699,16 @@
             margin-top: 57px;
             background-color: transparent;
             border: none;
+            margin-bottom: 60px;
+        }
+        
+        .footer__copy {
+            background-color: #2A2C2B;
+            padding: 43px 0 41px 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 16px;
+            color: #CCCCCC;
+            text-align: center;
         }
