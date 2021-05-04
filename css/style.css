@@ -251,6 +251,15 @@
             margin-bottom: 115px;
         }
         
+        .portfolio__title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 75px;
+            letter-spacing: -1.65px;
+            color: #242121;
+        }
+        
         .portfolio__btn {
             background-color: transparent;
             border: none;
@@ -406,6 +415,12 @@
         .team__title {
             margin-top: 100px;
             margin-bottom: 102px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 75px;
+            letter-spacing: -1.65px;
+            color: #242121;
         }
         
         .team__items {
@@ -443,6 +458,12 @@
         
         .pricing__title {
             padding-top: 144px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 75px;
+            letter-spacing: -1.65px;
+            color: #242121;
         }
         
         .pricing__title::before {
@@ -542,6 +563,7 @@
         }
         
         .contact .container {
+            width: 805px;
             margin: 0;
             margin-left: 136px;
             margin-right: 101px;
@@ -550,6 +572,12 @@
         .contact__title {
             padding-top: 100px;
             margin-bottom: 94px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 75px;
+            letter-spacing: -1.65px;
+            color: #242121;
         }
         
         .contact__title::before {
@@ -595,6 +623,7 @@
         .contact__form-btn {
             width: 230px;
             height: 45px;
+            border: none;
             background-color: #242121;
             font-family: 'Montserrat', sans-serif;
             font-weight: 700;
@@ -609,4 +638,65 @@
         
         .contact__map {
             width: 100%;
+        }
+        
+        .footer {
+            background-color: #373A39;
+        }
+        
+        .logo--line {
+            margin: 0 49%;
+            transform: translateX(-50%);
+            padding-top: 110px;
+            padding-left: 0;
+            position: relative;
+            margin-bottom: 100px;
+        }
+        
+        .logo--line::after {
+            content: '';
+            width: 150px;
+            border-bottom: 2px solid #FCBB08;
+            position: absolute;
+            transform: translateX(-35%);
+            top: 175px;
+        }
+        
+        .footer__social {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .footer__social-link {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 4px;
+            color: #fff;
+            cursor: pointer;
+            margin: 0 14px;
+            margin-bottom: 65px;
+        }
+        
+        .footer__contacts {
+            display: grid;
+            justify-content: center;
+        }
+        
+        .footer_address,
+        .footer__phone,
+        .footer__email {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 32px;
+            color: #A8A8A8;
+            text-align: center;
+        }
+        
+        .footer-to__top-btn {
+            margin-top: 57px;
+            background-color: transparent;
+            border: none;
         }
