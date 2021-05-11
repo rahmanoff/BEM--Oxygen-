@@ -30,7 +30,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            height: 94px;
+            height: 85px;
         }
         
         .logo {
@@ -51,8 +51,9 @@
             line-height: 14px;
             letter-spacing: .6px;
             border-bottom: 2px solid transparent;
-            padding-bottom: 9px;
             transition: all 0.5s;
+            padding-top: 9px;
+            padding-bottom: 5px;
         }
         
         .menu__list-item:hover {
@@ -334,7 +335,7 @@
             font-size: 14px;
             line-height: 32px;
             color: #9E9E9E;
-            margin-bottom: 51px;
+            margin-bottom: 148px;
         }
         
         .video__content {
@@ -350,7 +351,7 @@
         .video__img {
             position: absolute;
             left: 50%;
-            top: 60%;
+            top: 70%;
         }
         
         .statistics__inner {
@@ -406,8 +407,11 @@
         }
         
         .slick-dots {
+            style: none;
             display: flex;
-            justify-content: center;
+            justify-content: left;
+            padding-left: 133px;
+            padding-bottom: 114px;
             margin-top: 50px;
             list-style: none;
         }
